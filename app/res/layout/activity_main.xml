@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lw.custom.MainActivity">
+
+    <com.lw.custom.widget.StarView
+        android:id="@+id/star_view"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        app:half="true"
+        app:isChange="true"
+        android:background="@color/colorAccent"
+        app:rating="3.4"
+        app:starMarge="10dp"
+        app:starStyle="FILL_AND_STROKE"/>
+
+</android.support.constraint.ConstraintLayout>

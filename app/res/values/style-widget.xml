@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StarView">
+        <!--亮星颜色-->
+        <attr name="starColor" format="color"/>
+        <!--暗星颜色-->
+        <attr name="bgColor" format="color"/>
+        <!--暗星绘制方式-->
+        <attr name="starStyle">
+            <enum name="FILL" value="1" /><!--填充-->
+            <enum name="STROKE" value="2" /><!--描边-->
+            <enum name="FILL_AND_STROKE" value="3" /><!--填充并描边-->
+        </attr>
+        <!--星星总数量-->
+        <attr name="starCount" format="integer"/>
+        <!--亮星数量-->
+        <attr name="rating" format="float"/>
+        <!--绘制高度-->
+        <attr name="starSize" format="dimension"/>
+        <!--画笔粗细-->
+        <attr name="paintSize" format="dimension"/>
+        <!--星星之间的间距-->
+        <attr name="starMarge" format="dimension"/>
+        <!--是否可滑动调整-->
+        <attr name="isChange" format="boolean"/>
+        <!--是否可绘制半星-->
+        <attr name="half" format="boolean"/>
+    </declare-styleable>
+</resources>
