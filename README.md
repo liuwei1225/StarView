@@ -1,1 +1,1 @@
-* ![](https://github.com/liuwei1225/StarView/gif/test.gif)
+* ![](https://raw.githubusercontent.com/liuwei1225/StarView/master/gif/test.gif)
